@@ -5,4 +5,5 @@ _site
 vendor
 
 #don't upload until get retired
-./_posts/2019-09-24-networked.md
+/_posts/2019-09-24-networked.md
+/_site/writeup/networked.html
