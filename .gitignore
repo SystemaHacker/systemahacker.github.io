@@ -1,0 +1,8 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+#don't upload until get retired
+./_posts/2019-09-24-networked.md
