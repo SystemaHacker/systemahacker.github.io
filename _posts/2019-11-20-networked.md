@@ -24,7 +24,7 @@ permalink: /writeup/networked
 <p> </p>
 <div class="table-responsive">
 <table class="table table-hover table-striped">
-<tbody> <tr> <td class="text-right">OS:</td> <td><img src="http://hackthebox.eu/images/linux.png" height="15"> Linux</td> </tr> <tr> <td class="text-right">Difficulty:</td> <td> <span class="text-success bold">Easy</span></td> </tr> <tr> <td class="text-right">Points:</td> <td><span class="text-success">20</span></td> </tr> <tr> <td class="text-right">Release:</td> <td>24 Aug 2019</td> </tr> <tr> <td class="text-right">IP:</td> <td>10.10.10.146</td> </tr> </tbody> </table> </div> <p></p> </div> </div> <small></small> </div>
+<tbody> <tr> <td class="text-right">OS:</td> <td><img src="https://hackthebox.eu/images/linux.png" height="15"> Linux</td> </tr> <tr> <td class="text-right">Difficulty:</td> <td> <span class="text-success bold">Easy</span></td> </tr> <tr> <td class="text-right">Points:</td> <td><span class="text-success">20</span></td> </tr> <tr> <td class="text-right">Release:</td> <td>24 Aug 2019</td> </tr> <tr> <td class="text-right">IP:</td> <td>10.10.10.146</td> </tr> </tbody> </table> </div> <p></p> </div> </div> <small></small> </div>
 ## Nmap 스캔
 <p>주어진 아이피 정보를 이용하여 네트워크 스캔을 진행하였다.</p>
 `nmap -A -v -sV --script vuln 10.10.10.146`
