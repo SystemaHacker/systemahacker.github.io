@@ -22,7 +22,7 @@ url     : "https://SystemaHacker.github.io" # the base hostname & protocol for y
 baseurl : # does not include hostname
 title   : SystemaHacker
 description: > # this means to ignore newlines until "Language & timezone"
-  21 years old Netrunner
+
 
 
 ## => Language and Timezone
@@ -40,7 +40,7 @@ author:
   avatar    : # path or url of avatar image (square)
   bio       : 23 years old Netrunner
   email     : s1527786@gmail.com
-  facebook  : SystemaHacker # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  facebook  : #SystemaHacker # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
