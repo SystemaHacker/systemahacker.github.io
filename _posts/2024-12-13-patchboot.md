@@ -17,7 +17,7 @@ permalink: /anti-cheat-bypass/patchboot
 ## 주의
 메인보드의 펌웨어를 수정하면 손상될 위험이 있습니다, 일부 메인보드에서는 복구 불가할 수 있습니다.   
 
-## 원본 펌워어 다운로드
+## 원본 펌웨어 다운로드
 메인보드는 [MSI B360M 박격포](https://kr.msi.com/Motherboard/B360M-MORTAR/support) 제품으로 진행합니다.   
 메인보드 제조사의 사이트에서 최신 펌웨어를 다운로드합니다.   
 ![메인보드 제조사 사이트에서 최신 펌웨어 다운로드](/assets/anti-cheat-bypass/patchboot/b360m-mortar-driver-download.png)   
@@ -45,12 +45,12 @@ Ghidra에서 이미지를 열고 Search > Memory를 클릭 후 Search Value에 0
 
 
 ## 이미지 검증 함수 패치하기
-패치 과정은 쉽습니다. 검증 함수가 EFI_SUCCESS(0)를 반환하게 패치하기위해 필요한 어셈블리는 다음 사진과 같습니다.   
+패치 과정은 쉽습니다. 검증 함수가 EFI_SUCCESS(0)를 반환하도록 패치하기위해 필요한 어셈블리는 다음 사진과 같습니다.   
 이를 확인하기 위해 온라인 어셈블러 사이트를 이용하였습니다.   
 [https://defuse.ca/online-x86-assembler.htm#disassembly](https://defuse.ca/online-x86-assembler.htm#disassembly)   
 ![패치에 필요한 어셈블리](/assets/anti-cheat-bypass/patchboot/assembly.png)   
 
-준비된 어셈블리로 패치하기위해 헥스 에디터를 이용해 이미지를 열어줍니다. 여기에서는 [HxD](https://mh-nexus.de/en/hxd/)를 이용합니다.   
+준비된 어셈블리로 패치하기위해 헥스 에디터를 이용해 이미지를 열어줍니다. 여기에서는 [HxD](https://mh-nexus.de/en/hxd/)를 사용합니다.   
 HxD에서 이미지를 열고 Search > Go to...를 클릭하여 패치할 함수 오프셋인 `15DC`를 입력하고 이동합니다.   
 ![HxD 함수로 이동](/assets/anti-cheat-bypass/patchboot/hxd-goto-function.png)   
 
