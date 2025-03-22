@@ -46,7 +46,7 @@ passwd root
 ![configure lxc network](/assets/proxmox/install-proxmox-datacenter-manager/lxc-network-settings.png)   
 
 ---
-## Node 추가하기
+## 노드 추가하기
 `Proxmox Datacenter Manager`의 URL로 접속하면 다음과 같은 화면이 나타납니다. `root`로 로그인합니다.
 
 ![Login to Proxmox Datacenter Manager](/assets/proxmox/install-proxmox-datacenter-manager/proxmox-datacenter-manager-login.png)
