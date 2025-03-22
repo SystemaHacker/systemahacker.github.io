@@ -29,7 +29,7 @@ permalink: /anti-cheat-bypass/patchboot
 
 ---
 ## EFI 바이너리 추출하기
-다운로드한 펌웨어 파일을 [UEFITool](https://github.com/LongSoft/UEFITool)을 이용해 열어줍니다. (UEFITool의 NE 버전은 모듈 교체 기능을 지원하지 않습니다. 여기서는 이를 지원하는 1.28.0 버전을 사용하겠습니다.   
+다운로드한 펌웨어 파일을 [UEFITool](https://github.com/LongSoft/UEFITool)을 이용해 열어줍니다. (UEFITool의 NE 버전은 모듈 교체 기능을 지원하지 않습니다. 여기서는 이를 지원하는 0.28.0 버전을 사용하겠습니다.   
 ![UEFITool을 이용해 다운로드한 펌웨어를 열기](/assets/anti-cheat-bypass/patchboot/uefitool-open-driver.png)   
 
 파일 로딩이 끝나면 File > Search... 를 눌러서 "image verification"을 텍스트로 검색합니다.   
